@@ -1,9 +1,9 @@
-a {
+.a {
   display: block;
   padding: 8px;
   background-color: #dddddd;
 }
-ul {
+.ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -14,13 +14,13 @@ ul {
     
 }
 .navbar a {
-  float: left;
+ float: left;
   display: block;
   color: #003300;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 50x;
 }
 .navbar a:hover {
   background-color: #ecd9c6;
