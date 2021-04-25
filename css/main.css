@@ -1,7 +1,23 @@
-h1 {
+.header {
+  background-image: "web_design_final-main/images/colorado-denim-logo.png";
+  text-align: center;
+  padding: 20px;
+}
+.body {
+    font: OrelegaOne;
     font-weight: 200;
 }
-
-#navbar {
-    background-color: saddlebrown;
+.maincontent {
+    align-content: center;
+    background-color: #c68c53;
+    font: OrelegaOne
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
